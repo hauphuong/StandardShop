@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardShop", "StandardShop\StandardShop.csproj", "{90585AB4-2279-4FA0-B863-EC4521E2555A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardShop", "StandardShop\StandardShop.csproj", "{90585AB4-2279-4FA0-B863-EC4521E2555A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardShop.Utilities", "StandardShop.Utilities\StandardShop.Utilities.csproj", "{72E59E01-E16F-4D43-B392-8508B89DEC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardShop.Infrastructure", "StandardShop.Infrastructure\StandardShop.Infrastructure.csproj", "{2D428C4C-4B3A-4298-B808-C8B03AC23219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardShop.Data", "StandardShop.Data\StandardShop.Data.csproj", "{E162D6ED-7828-4889-A0C5-A9B4DEBBEDFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardShop.Data.EF", "StandardShop.Data.EF\StandardShop.Data.EF.csproj", "{4EA898D2-A128-401A-BF6E-153321883E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardShop.Application", "StandardShop.Application\StandardShop.Application.csproj", "{BD332B1A-DFF4-476D-8D7F-E9455762E16C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{7921C95A-21AA-49A1-B0D2-C2D3FE8EB5F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{68E9CD6D-4E7F-4B91-9138-21AB5BBB4DF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{797675BF-5FE8-4288-A5BB-0E264B92B972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{7553836E-F2D0-46F6-AC66-CBF4301ACD2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +33,37 @@ Global
 		{90585AB4-2279-4FA0-B863-EC4521E2555A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90585AB4-2279-4FA0-B863-EC4521E2555A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90585AB4-2279-4FA0-B863-EC4521E2555A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E59E01-E16F-4D43-B392-8508B89DEC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E59E01-E16F-4D43-B392-8508B89DEC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E59E01-E16F-4D43-B392-8508B89DEC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E59E01-E16F-4D43-B392-8508B89DEC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D428C4C-4B3A-4298-B808-C8B03AC23219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D428C4C-4B3A-4298-B808-C8B03AC23219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D428C4C-4B3A-4298-B808-C8B03AC23219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D428C4C-4B3A-4298-B808-C8B03AC23219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E162D6ED-7828-4889-A0C5-A9B4DEBBEDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E162D6ED-7828-4889-A0C5-A9B4DEBBEDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E162D6ED-7828-4889-A0C5-A9B4DEBBEDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E162D6ED-7828-4889-A0C5-A9B4DEBBEDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA898D2-A128-401A-BF6E-153321883E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA898D2-A128-401A-BF6E-153321883E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA898D2-A128-401A-BF6E-153321883E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA898D2-A128-401A-BF6E-153321883E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD332B1A-DFF4-476D-8D7F-E9455762E16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD332B1A-DFF4-476D-8D7F-E9455762E16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD332B1A-DFF4-476D-8D7F-E9455762E16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD332B1A-DFF4-476D-8D7F-E9455762E16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90585AB4-2279-4FA0-B863-EC4521E2555A} = {7921C95A-21AA-49A1-B0D2-C2D3FE8EB5F4}
+		{72E59E01-E16F-4D43-B392-8508B89DEC59} = {7553836E-F2D0-46F6-AC66-CBF4301ACD2A}
+		{2D428C4C-4B3A-4298-B808-C8B03AC23219} = {7553836E-F2D0-46F6-AC66-CBF4301ACD2A}
+		{E162D6ED-7828-4889-A0C5-A9B4DEBBEDFE} = {797675BF-5FE8-4288-A5BB-0E264B92B972}
+		{4EA898D2-A128-401A-BF6E-153321883E20} = {797675BF-5FE8-4288-A5BB-0E264B92B972}
+		{BD332B1A-DFF4-476D-8D7F-E9455762E16C} = {68E9CD6D-4E7F-4B91-9138-21AB5BBB4DF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B70E4E8-1800-42FE-A539-9A4F5F44C84C}
