@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StandardShop.Data\StandardShop.Data.csproj" />
+    <ProjectReference Include="..\StandardShop.Infrastructure\StandardShop.Infrastructure.csproj" />
+    <ProjectReference Include="..\StandardShop.Utilities\StandardShop.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

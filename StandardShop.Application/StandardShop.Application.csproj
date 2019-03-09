@@ -4,4 +4,17 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementations\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StandardShop.Data.EF\StandardShop.Data.EF.csproj" />
+    <ProjectReference Include="..\StandardShop.Data\StandardShop.Data.csproj" />
+    <ProjectReference Include="..\StandardShop.Utilities\StandardShop.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

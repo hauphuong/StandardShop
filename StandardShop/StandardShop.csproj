@@ -11,4 +11,12 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.7" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StandardShop.Application\StandardShop.Application.csproj" />
+    <ProjectReference Include="..\StandardShop.Data.EF\StandardShop.Data.EF.csproj" />
+    <ProjectReference Include="..\StandardShop.Data\StandardShop.Data.csproj" />
+    <ProjectReference Include="..\StandardShop.Infrastructure\StandardShop.Infrastructure.csproj" />
+    <ProjectReference Include="..\StandardShop.Utilities\StandardShop.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
