@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace StandardShop.Data.Entities
 {
+    [Table("AppRoles")]
     public class AppRole : IdentityRole<Guid>
     {
         public AppRole() : base()
